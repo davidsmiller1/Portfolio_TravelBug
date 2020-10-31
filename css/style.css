@@ -1,0 +1,200 @@
+/* Body */
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .sectionHeading {
+    text-align: left;
+    margin: 2% 0% 2% 0%;
+  }
+
+  .sectionContent {
+    width: 86%;
+    margin: 3.5% 7% 3.5% 7%;
+  }
+
+/* Typography */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica Neue", sans-serif;
+    color:#1C3059;
+    font-weight: 400;
+    letter-spacing: 0.03125em;
+  }
+
+  p {
+    font-family: "Helvetica Neue", sans-serif;
+    color: #707070;
+    font-weight: 400;
+    font-size: 1.25em;
+    letter-spacing: 0.025em;
+  }
+
+  li {
+    font-family: "Helvetica Neue", sans-serif;
+    color: #707070;
+    font-weight: 400;
+    font-size: 1.25em;
+    letter-spacing: 0.025em;
+  }
+
+/* Navigation */
+  .customNav {
+    position: fixed;
+    width: 100%;
+    padding: .4% 7% .4% 7%;
+    background-color: #1C3059 !important;
+    background-size: cover;
+    box-shadow: 0em 0em .5em 0em rgba(0, 0, 0, 0.1), 0em 0em 2.5em 0em rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  
+  .navbar-brand img{
+    width: 50%;
+  }
+
+  .nav-item{
+    margin: 0 1em;
+  }
+  
+  .customNav a {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    color: #f2f2f2 !important;
+    letter-spacing: 0.025em;
+  }
+  
+  .navCTA {
+    font-size: 1em;
+  }
+
+/* Case Study Subnav */
+  .subNavigation {
+    background-color: #f2f2f2;
+    opacity: .9;
+    width: 100%;
+    background-size: cover;
+    padding-top: 6.75em;
+    padding-right: 7%;
+    padding-bottom: .5em;
+    padding-left: 7%;
+    position: fixed;
+    justify-content: center;
+    z-index: 9;
+    box-shadow: 0em 0em .5em 0em rgba(0, 0, 0, 0.1), 0em 0em 2.5em 0em rgba(0, 0, 0, 0.1);
+  }  
+
+  .subNavigation a {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border-right: 1px solid #1C3059;
+    margin: 0em .4em 0em .4em;
+    padding-right: 1.6em;
+    color:  #1C3059 !important;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+  }
+
+  .subNavigation a:last-child{
+    border: none;
+ }
+
+  @media only screen and (max-width: 1200px){
+    .subNavigation a {
+      margin: 0em 0em 0em 0em;
+      padding: 0em .75em 0em .75em;
+      }  
+  }
+
+  @media only screen and (max-width: 992px){
+    .subNavigation {
+      display: none;
+      }  
+  } 
+
+/* Landing Section */
+  .landingSection {
+    padding: 7.25em 0em 0em 0em;
+  }
+
+/* Background Section */
+  .card {
+    border: none;
+  }
+  
+/* Launch & Research Section */
+
+/* Problem Statement Section */
+
+/* Definition & Ideation Section */
+
+/* Wireframe & Test Section */
+
+/* Prototype & Delivery Section */
+
+/* Conclusion Section */
+
+/* More Projects Section */
+  .caseStudyButton:hover {
+    background-color: #1C3059;
+    color: #f2f2f2;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 0.8em;
+    font-weight: 400;
+    text-transform: uppercase !important;
+    letter-spacing: 0.285em!important;
+    border-width: 2px !important;
+    border-color: #1C3059;
+    display: inline-flex;
+    width: 15em;
+    height: 4em;
+    padding-top: .5em;
+    padding-left: 2em;
+    margin: 1em 0em 1em 0em;
+  }
+  
+  .caseStudyButton {
+    background-color: transparent;
+    color: #1C3059;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+    text-transform: uppercase !important;
+    letter-spacing: 0.275em !important;
+    border-width: 2px !important;
+    border-color: #1C3059 !important;
+    display: inline-flex;
+    width: 15em;
+    height: 4em;
+    padding-top: .5em;
+    padding-left: 2em;
+    margin: 1em 0em 1em 0em;
+  }
+
+/* Footer */
+.footer {
+    position: center;
+    width: 100%;
+    height: 5em;
+    background-color: #1C3059;
+    margin-top: 4em;
+    padding: 1em 0em 1em 0em;
+  }
+
+  .footer h5 {
+    color: #F2F2F2;
+    text-align: center;
+  }
+
+
+
