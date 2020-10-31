@@ -6,12 +6,13 @@
 
   .sectionHeading {
     text-align: left;
-    margin: 2% 0% 2% 0%;
+    margin-top: 5em;
+    margin-bottom: 1em;
   }
 
   .sectionContent {
     width: 86%;
-    margin: 3.5% 7% 3.5% 7%;
+    margin: 3.5% 7% 0% 7%;
   }
 
 /* Typography */
@@ -124,7 +125,7 @@
 
 /* Landing Section */
   .landingSection {
-    padding: 7.25em 0em 0em 0em;
+    padding: 6em 0em 0em 0em;
   }
 
 /* Background Section */
